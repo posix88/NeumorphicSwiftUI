@@ -14,13 +14,25 @@ struct NeuButton: View {
     var action: (() -> Void)
     
     var body: some View {
-        ZStack {
+        HStack {
+            ZStack {
             LinearGradient(Color.darkStart, Color.darkEnd)
             Button(action: {
                 self.action()
             }) {
                 Image(systemName: "heart.fill").foregroundColor(.white)
             }.buttonStyle(DarkNeumorphicStyle(colored: colored))
+            }
+            Spacer()
+            ZStack {
+                Color.offWhite
+                Button(action: {
+                    self.action()
+                }) {
+                    Image(systemName: "heart.fill").foregroundColor(.gray)
+                }.buttonStyle(NeumorphicStyle())
+            }
+            
         }.edgesIgnoringSafeArea(.all)
     }
 }
