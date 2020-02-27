@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		4C03459C2407DBD300485DC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C03459B2407DBD300485DC5 /* AppDelegate.swift */; };
 		4C03459E2407DBD300485DC5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C03459D2407DBD300485DC5 /* SceneDelegate.swift */; };
-		4C0345A02407DBD300485DC5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C03459F2407DBD300485DC5 /* ContentView.swift */; };
+		4C0345A02407DBD300485DC5 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C03459F2407DBD300485DC5 /* Card.swift */; };
 		4C0345A22407DBD500485DC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C0345A12407DBD500485DC5 /* Assets.xcassets */; };
 		4C0345A52407DBD500485DC5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C0345A42407DBD500485DC5 /* Preview Assets.xcassets */; };
 		4C0345A82407DBD500485DC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C0345A62407DBD500485DC5 /* LaunchScreen.storyboard */; };
+		4C0345B02407DBFA00485DC5 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0345AF2407DBFA00485DC5 /* Colors.swift */; };
+		4C0345B52407E24600485DC5 /* NeuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0345B42407E24600485DC5 /* NeuButton.swift */; };
+		4C0345B72407FBEC00485DC5 /* BackgroundShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0345B62407FBEC00485DC5 /* BackgroundShape.swift */; };
+		4C0345B9240803CB00485DC5 /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0345B8240803CB00485DC5 /* ButtonStyles.swift */; };
+		4C0345BB2408077800485DC5 /* NeuToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0345BA2408077800485DC5 /* NeuToggle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4C0345982407DBD300485DC5 /* NeumorphicTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeumorphicTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C03459B2407DBD300485DC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C03459D2407DBD300485DC5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4C03459F2407DBD300485DC5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4C03459F2407DBD300485DC5 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		4C0345A12407DBD500485DC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C0345A42407DBD500485DC5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4C0345A72407DBD500485DC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C0345A92407DBD500485DC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C0345AF2407DBFA00485DC5 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		4C0345B42407E24600485DC5 /* NeuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuButton.swift; sourceTree = "<group>"; };
+		4C0345B62407FBEC00485DC5 /* BackgroundShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundShape.swift; sourceTree = "<group>"; };
+		4C0345B8240803CB00485DC5 /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
+		4C0345BA2408077800485DC5 /* NeuToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuToggle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +66,14 @@
 		4C03459A2407DBD300485DC5 /* NeumorphicTest */ = {
 			isa = PBXGroup;
 			children = (
+				4C0345B12407E1E500485DC5 /* Components */,
 				4C03459B2407DBD300485DC5 /* AppDelegate.swift */,
 				4C03459D2407DBD300485DC5 /* SceneDelegate.swift */,
-				4C03459F2407DBD300485DC5 /* ContentView.swift */,
 				4C0345A12407DBD500485DC5 /* Assets.xcassets */,
 				4C0345A62407DBD500485DC5 /* LaunchScreen.storyboard */,
 				4C0345A92407DBD500485DC5 /* Info.plist */,
 				4C0345A32407DBD500485DC5 /* Preview Content */,
+				4C0345AF2407DBFA00485DC5 /* Colors.swift */,
 			);
 			path = NeumorphicTest;
 			sourceTree = "<group>";
@@ -73,6 +84,18 @@
 				4C0345A42407DBD500485DC5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4C0345B12407E1E500485DC5 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4C03459F2407DBD300485DC5 /* Card.swift */,
+				4C0345B42407E24600485DC5 /* NeuButton.swift */,
+				4C0345BA2408077800485DC5 /* NeuToggle.swift */,
+				4C0345B62407FBEC00485DC5 /* BackgroundShape.swift */,
+				4C0345B8240803CB00485DC5 /* ButtonStyles.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,8 +170,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C03459C2407DBD300485DC5 /* AppDelegate.swift in Sources */,
+				4C0345B02407DBFA00485DC5 /* Colors.swift in Sources */,
+				4C0345B52407E24600485DC5 /* NeuButton.swift in Sources */,
 				4C03459E2407DBD300485DC5 /* SceneDelegate.swift in Sources */,
-				4C0345A02407DBD300485DC5 /* ContentView.swift in Sources */,
+				4C0345BB2408077800485DC5 /* NeuToggle.swift in Sources */,
+				4C0345B9240803CB00485DC5 /* ButtonStyles.swift in Sources */,
+				4C0345A02407DBD300485DC5 /* Card.swift in Sources */,
+				4C0345B72407FBEC00485DC5 /* BackgroundShape.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
