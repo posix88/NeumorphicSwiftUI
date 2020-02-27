@@ -18,6 +18,8 @@
 		4C0345B72407FBEC00485DC5 /* BackgroundShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0345B62407FBEC00485DC5 /* BackgroundShape.swift */; };
 		4C0345B9240803CB00485DC5 /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0345B8240803CB00485DC5 /* ButtonStyles.swift */; };
 		4C0345BB2408077800485DC5 /* NeuToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0345BA2408077800485DC5 /* NeuToggle.swift */; };
+		4C0345BE24080F6900485DC5 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0345BD24080F6900485DC5 /* View.swift */; };
+		4C0345C024080F8600485DC5 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0345BF24080F8600485DC5 /* Shape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		4C0345B62407FBEC00485DC5 /* BackgroundShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundShape.swift; sourceTree = "<group>"; };
 		4C0345B8240803CB00485DC5 /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
 		4C0345BA2408077800485DC5 /* NeuToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuToggle.swift; sourceTree = "<group>"; };
+		4C0345BD24080F6900485DC5 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		4C0345BF24080F8600485DC5 /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,7 @@
 		4C03459A2407DBD300485DC5 /* NeumorphicTest */ = {
 			isa = PBXGroup;
 			children = (
+				4C0345BC24080F5500485DC5 /* Extensions */,
 				4C0345B12407E1E500485DC5 /* Components */,
 				4C03459B2407DBD300485DC5 /* AppDelegate.swift */,
 				4C03459D2407DBD300485DC5 /* SceneDelegate.swift */,
@@ -73,7 +78,6 @@
 				4C0345A62407DBD500485DC5 /* LaunchScreen.storyboard */,
 				4C0345A92407DBD500485DC5 /* Info.plist */,
 				4C0345A32407DBD500485DC5 /* Preview Content */,
-				4C0345AF2407DBFA00485DC5 /* Colors.swift */,
 			);
 			path = NeumorphicTest;
 			sourceTree = "<group>";
@@ -96,6 +100,16 @@
 				4C0345B8240803CB00485DC5 /* ButtonStyles.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		4C0345BC24080F5500485DC5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4C0345AF2407DBFA00485DC5 /* Colors.swift */,
+				4C0345BD24080F6900485DC5 /* View.swift */,
+				4C0345BF24080F8600485DC5 /* Shape.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +188,8 @@
 				4C0345B52407E24600485DC5 /* NeuButton.swift in Sources */,
 				4C03459E2407DBD300485DC5 /* SceneDelegate.swift in Sources */,
 				4C0345BB2408077800485DC5 /* NeuToggle.swift in Sources */,
+				4C0345C024080F8600485DC5 /* Shape.swift in Sources */,
+				4C0345BE24080F6900485DC5 /* View.swift in Sources */,
 				4C0345B9240803CB00485DC5 /* ButtonStyles.swift in Sources */,
 				4C0345A02407DBD300485DC5 /* Card.swift in Sources */,
 				4C0345B72407FBEC00485DC5 /* BackgroundShape.swift in Sources */,
